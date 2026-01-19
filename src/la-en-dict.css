@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+d|entry {
+}
+
+h1 {
+  font-size: 150%;
+  font-family: -apple-system;
+  font-weight: 400;
+}
+
+p.subhead	{
+	font-size: 90%;
+  font-family: -apple-system;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+span.gender {
+  font-style: italic;
+  text-decoration: underline;
+  color: #444444;
+}
+
+span.keyword {
+  font-style: italic;
+  color: #444444;
+}
+
+span.comment {
+  font-style: italic;
+}
+
+p.pos {
+	color: #555;
+	font-size: 100%;
+  font-family: -apple-system;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+p.def {
+	font-size: 90%;
+  font-family: -apple-system;
+  margin-left: 1em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+html.apple_client-panel h1 {
+  display: inline;
+  font-size: 140%;
+  font-family: -apple-system;
+  font-weight: 400;
+  margin-right: 1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+html.apple_client-panel p.subhead {
+  display: inline;
+  font-size: 110%;
+  font-family: -apple-system;
+  font-weight: 400;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+html.apple_client-panel p.pos {
+  font-size: 110%;
+  font-family: -apple-system;
+  font-weight: 400;
+  color: #555;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+html.apple_client-panel p.def {
+  font-size: 100%;
+  font-family: -apple-system;
+  font-weight: 400;
+  margin-left: 1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+@media (prefers-color-scheme: dark)
+{
+	/* body {
+		color: text;
+	} */
+	/* html.apple_client-panel body {
+		color: text;
+	} */
+}
