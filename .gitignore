@@ -1,3 +1,7 @@
 .DS_Store
 *.jsonl
 /DictionaryDevelopmentKit/
+/build/
+*.dictionary/
+__pycache__/
+*.py[cod]
